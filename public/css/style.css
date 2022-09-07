@@ -1,0 +1,253 @@
+ 
+
+
+.producttitle h4{
+    color: #438aab !important;
+    font-weight: 600;
+}
+.singleproduct{
+    display: grid;
+    grid-template-columns: 1fr 30% 30%;
+   
+}
+.singleproduct .imageproduct{
+width: 100%;
+max-width: 100%;
+}
+.singleproduct .detailsproduct{
+    display: grid;
+    grid-template-rows: 10% 1fr  ;
+}
+ 
+.singleproduct .refproduct{
+    padding-top:10px;
+    font-size: 15px;
+}
+.singleproduct .technicaldetail{
+    padding-top: 10%;
+    font-size: 14px;
+    color: rgb(112, 110, 110);
+}
+.priceproduct{
+    background-color: rgb(232, 238, 232);
+     margin: 20px;
+     padding: 20px;
+     text-align: center;
+    
+}
+.priceproduct span{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+   
+}
+ 
+
+#hs{
+    color: red;
+    font-size: 15px;
+}
+#is{
+    color: green;
+    font-size: 15px;
+}
+.quantity{
+    margin-top: 30%;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+ .quantityint{
+    display: grid; grid-template-columns: 1fr 1fr 
+ }
+ .quantityint button{
+    width: 25px;
+ }
+ .quantityint input{
+     width:50px;height: 50px;
+ }
+ .addproduct{
+    display: grid; grid-template-rows: 1fr 1fr;
+ }
+.Panier{
+   margin-top: 50px;
+   margin-left: 50px;
+    padding: 20px;
+    background-image: linear-gradient(  lightgray, #fff);
+    border: 1px solid lightgray;
+    width: 100%;
+    color:#026ba4 ;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.Panier:hover{
+    background-image: linear-gradient(  #fff, lightgray);
+    color:gold ;
+}
+.alert{
+    width: 90%;
+    height: 20px;
+    background-color: rgba(255, 154, 82, .3);;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid gold;
+    
+}
+
+/*Sigin */
+.siginform{
+    margin: auto;
+    padding: auto;
+    
+    height: 20%;
+    width: 50%;
+  }
+  .siginform h1{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 3px solid gold;
+  }
+  .siginform .formdata{
+    padding: 50px;
+    border: 1px solid rgb(245, 242, 242);
+    display: grid;
+    grid-template-columns: 40% 1fr;
+  }
+  .siginform .formdata input{
+  background-color:  rgb(230, 230, 227);
+  height: 30px;
+  width: 90%;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  }
+   
+  .validation{
+     
+    display: grid;
+    justify-content: center;
+    align-content: center;
+   margin-bottom: 10px;
+  }
+  #sigin{
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+  }
+  /** Panier PAge */ 
+ 
+  .panierProduct{
+    border: 1px solid rgb(202, 200, 200);
+    margin: 0 10px 0 10px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .panierItem{
+      border-top:1px solid black ;
+      display: grid;
+      padding-top: 10px;
+      grid-template-columns:  2fr 1fr 1fr 1fr 60px;
+  }
+  .panierItem .itemdescription{
+      display: grid;
+      grid-template-columns: 25% 1fr;
+      
+  }
+   .itemdescription .title{
+       padding: 20px 0 0 20px;
+     
+   }
+   .itemdescription .title p{
+    font-size: 12px;
+}
+.commandpanel{
+    border-top: 1px solid black;
+    display: grid;
+      grid-template-columns: 25% 1fr;
+}
+.commandpanel .price{
+    border-top: 1px solid black;
+    display: grid;
+      grid-template-columns: 25% 1fr;
+}
+.text-link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+   
+   .itemPrice{
+    border-right: 1px solid rgb(202, 200, 200);
+    border-left: 1px solid rgb(202, 200, 200);
+       padding: 20px;
+       font-weight: bold;
+       display: grid;
+       text-align: center;
+   }
+   .itemqty{
+    
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+  
+     
+   }
+   .itemqty input{
+width: 30px;
+height: 40px;
+border-radius: 5px 0 0 5px;
+   }
+   .itemqty button{
+    width: 20px;
+   
+       }
+       .itemDelete{
+           margin: auto;
+           padding: auto;
+       }
+    .panierTtc{
+        border: 1px solid rgb(202, 200, 200);
+        margin: 0 10px 0 10px;
+        width: auto;
+        height: auto;
+        padding: 10px;
+        border-radius: 5px;
+        background-color:rgb(235, 231, 231) ;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .ttc{
+        font-weight: bold;
+    }
+    .totalprice{
+        font-weight: bold;
+        color: red;
+        text-align: right;
+    }
+    .col {
+        display: grid;
+        grid-template-columns: 1fr 25%;
+       
+      }
+    .cmdprice{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: rgb(228, 226, 226);
+    }
+    .cmdprice .price{
+text-align: right;
+color: red;
+font-weight: 500;
+    }
+ #commander{
+     margin: 0;
+     margin-top: 5px;
+ }

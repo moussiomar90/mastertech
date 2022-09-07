@@ -1,0 +1,14 @@
+.cmd-section{
+    margin-top: 10px;
+    background-color: #fff;
+    width: 70%;
+    padding: 5px 15px;
+    display: grid;
+    grid-template-rows: 1fr  50px 50px ;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+ .list-produit-cmd{
+     display: grid;
+     grid-template-columns: 1fr 20% 20%;
+ }

@@ -1,0 +1,62 @@
+    .path {
+        border: 1px solid rgb(202, 200, 200);
+        margin: 10px;
+        width: auto;
+        height: auto;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    .productshow {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        gap: 20px;
+    }
+    
+    .filterproduit {
+        background-color: #f3f8ff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    .productdisplay {
+        border: 1px solid rgb(202, 200, 200);
+        margin: 10px;
+        width: auto;
+        height: auto;
+        padding: 10px;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .listproductnavigate {
+        border: 1px solid rgb(202, 200, 200);
+        margin: 10px;
+        width: auto;
+        height: auto;
+        padding: 10px;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .listproductnavigate .buttonnumb {
+        display: flex;
+        flex-flow: row wrap;
+        float: right;
+    }
+    
+    .listproductnavigate button {
+        margin-left: 5px;
+        background-color: orange;
+        width: 35px;
+        height: 35px;
+        border: 1px solid orange;
+        border-radius: 5px;
+        color: #fff;
+    }
+    
+    .listproductnavigate .text {
+        margin-top: 10px;
+    }

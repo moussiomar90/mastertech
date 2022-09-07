@@ -1,0 +1,173 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+
+/* latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v6/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Poppins SemiBold'), local('Poppins-SemiBold'), url(https://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Poppins Bold'), local('Poppins-Bold'), url(https://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.submenu {
+    background: #fff;
+    position: absolute;
+    top: 50px;
+    box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 30%);
+    right: 2px;
+    left: 2px;
+    margin: auto;
+    height: 60px;
+     
+    height: auto;
+
+    z-index: 514;
+}
+.nav{
+    width: 100%;
+   height: auto;
+  
+}
+.nav a {
+    text-decoration: none;
+}
+
+.nav li {
+    list-style: none;
+    text-align: left;
+}
+.nav-column > h3{
+   color :blue
+     
+}
+
+.nav > li {
+     
+    float: left;
+     
+   
+}
+ 
+/* Menu Links */
+.nav > li > a {
+  
+    font-family: 'Poppins', sans-serif !important;
+   
+    z-index: 510;
+    height: 54px;
+    padding: 0 20px;
+    line-height: 54px;
+
+ 
+ 
+    font-size: 13px;
+    color: #2470bc;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .35);
+
+    background: #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+/* Menu Dropdown */
+.nav > li > div {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50px;
+    left: 0;
+ 
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+ 
+    background: #ffffff;
+    border-radius: 0 0 3px 3px;
+ 
+    -webkit-transition: all .3s ease .15s;
+    -moz-transition: all .3s ease .15s;
+    -o-transition: all .3s ease .15s;
+    -ms-transition: all .3s ease .15s;
+    transition: all .3s ease .15s;
+    z-index: 510;
+    float: left;
+}
+.nav > li:hover > div {
+    opacity: 1;
+    visibility: visible;
+    overflow: visible;
+    border-bottom: 2px solid orange;
+}
+/* Menu Content Styles */
+.nav .nav-column {
+    float: left;
+    width: 20% auto;
+    padding: 2.5%;
+    
+}
+ 
+.nav .nav-column h3 {
+    margin: 20px 0 10px 0;
+    line-height: 18px;
+     
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #372f2b;
+    text-transform: uppercase;
+}
+ 
+.nav .nav-column h3.orange { color: #ff722b; }
+ 
+.nav .nav-column li a {
+    display: block;
+    line-height: 26px;
+    
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #888888;
+}
+ 
+.nav .nav-column li a:hover { color: #666666; }
+
+#Sous_Cat{
+    color: #438aab !important; 
+    border-bottom: 1px solid gray;
+    font-size: 12px;
+}

@@ -1,0 +1,18 @@
+table{
+    margin: 5px;
+    width: 98%;
+    border-collapse: collapse;
+
+}
+#traitement{
+    background-color:#4169E1 ;
+}
+#annule{
+    background-color:#DC143C ;
+}
+#expedie{
+    background-color:green ;
+}
+ td{
+     padding: 5px;
+ }

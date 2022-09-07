@@ -1,0 +1,43 @@
+.success {
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    width: 30%;
+    height: 40%;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    z-index: 100;
+    display: grid;
+    grid-template-rows: 40% 1fr;
+}
+
+.gray {
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0.5;
+
+} 
+.iconcheck{
+    background:#20c997;
+    border-radius: 10px 10px 0 0;
+}
+.iconcheck #closebn{
+    position: absolute;
+    right: 10px;
+    top : -45px;
+}
+.iconcheck i{
+  display: grid;
+  justify-content: center;
+  margin-top: 12%;
+  color: #fff;
+  cursor: pointer;
+  
+  width: 10;
+  
+ 
+}

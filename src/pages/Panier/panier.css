@@ -1,0 +1,98 @@
+ 
+.panier-main{
+    width: 70%;
+    background-color: #fff;
+   
+    margin-left: 2%;
+    display:grid;
+    grid-template-rows: 70px 1fr;
+    gap: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 5px;
+}
+.main-text{
+    padding: 10px;
+    border-bottom:1px solid gray ;
+}
+
+.main-text p{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px
+}
+.panier-item-detail{
+    border-bottom:1px solid gray ;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 20% 1fr 20%;
+    
+}
+.detail-img{
+    padding: 5px;
+}
+.detail-text{
+    display: grid;
+    grid-template-rows:20% 10%   30%  ;
+    gap:10px
+}
+.detail-text select{
+background-color: rgb(243, 240, 240);
+height: 30px;
+width: 50px;
+border-radius: 5px;
+}
+#panier-option{
+    float:left;
+    margin-left: 10px;
+    padding-top: 2px;
+    padding-left: 15px;
+    border-left: 1px solid blue;
+    color: blue;
+    cursor: pointer;
+}
+.panier-total{
+    background-color: #fff;
+}
+.totalzone{
+    
+    
+    position:fixed;
+    background:#fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    right:2%;
+    width:25%;
+    top:23%;
+    height: 30% auto;
+    padding: 15px;
+}
+#btncmd{
+    background-color:#ffd814;
+    border: 1px solid #ffd814;
+    position:absolute;
+    bottom:5px;
+    right:5px;
+    left:5px ;
+  
+    padding: 5px;
+    border-radius: 10px;
+}
+.pay-section{
+    display: grid;
+    grid-template-rows: 30% 30% 1fr;
+}
+.radio-toolbar input[type="radio"] {
+  display: none;
+}
+
+.radio-toolbar label {
+  display: inline-block;
+  background-color: #ddd;
+  padding: 4px 11px;
+  font-family: Arial;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.radio-toolbar input[type="radio"]:checked+label {
+  background-color: #bbb;
+}
