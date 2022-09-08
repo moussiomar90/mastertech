@@ -65,7 +65,7 @@ export default function Navbar() {
 
 
                      
-                        <Link to ={"/"} target="pulse_frame" id="pulse-logo" style={{ top: "-1px" }}  >
+                        <Link to ={"/"} id="pulse-logo" style={{ top: "-1px" }}  >
                             <img src={logo} alt="Pulse" style={{
                                 width: '150px',
                             }} /> </Link>
